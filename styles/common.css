@@ -1,0 +1,69 @@
+/* getting reed of the default settings of the browser */
+body{
+    margin: 0; 
+}
+
+/* Navigation bar css */
+
+nav{
+    background-color: grey;
+    overflow: auto;
+}
+
+#navList-div a{
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    color: black;
+    text-decoration: none;
+}
+
+#navList-div li{
+    list-style-type: none;
+    float:right;
+    padding-top: 10px;  
+    padding-left: 15px;
+}
+
+#navList-div li a:hover{
+    font-size: larger;
+    color: white; 
+    animation: letterScale 200ms ease-in-out forwards;
+}
+
+#lastLi{
+    padding-right: 10px;
+}
+
+@keyframes letterScale {
+    from{font-size: medium;}
+    to{font-size: larger;}
+}
+
+#logo img:hover{
+    transform-origin: left top;
+    animation: scaling 200ms ease-in-out forwards;
+}
+
+@keyframes scaling {
+    to{
+        transform: scale(1.2);
+    }
+}
+
+/* footer settings */
+footer{
+    overflow: auto;
+    text-align: center;
+    background-color: black;
+    color: white; 
+    width: 100%;
+}
+
+#footerLogo{
+    padding-top: 10px;
+}
+
+.footerNotice{
+    font-family: 'Tiro Devanagari Marathi', serif;
+    padding: 0;
+}
