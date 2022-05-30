@@ -26,12 +26,16 @@
 }
 
 .space{
-    float: left; 
-    width: 50%;
+    float: right; 
+    width: 20%;
+}
+
+.space:hover{
+    animation: scaleDiv 200ms ease-in-out forwards; 
 }
 
 #the-space-div{
-    overflow:  auto;
+    overflow:  hidden;
     font-family: 'TIro Devanagari Marathi', serif;
     text-align: center;
     color: black; 
@@ -45,4 +49,38 @@
     height: 70%;
     padding: 15%;
     margin: 10%;     
+}
+
+#the-taste-div{
+    overflow:  hidden;
+    font-family: 'TIro Devanagari Marathi', serif;
+    text-align: center;
+    color: black; 
+    background-image: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px 5px black;
+    display: inline-block;
+    width: 50%;
+    height: 70%;
+    padding: 15%;
+    margin: 10%;     
+}
+
+#the-backstage-div{
+    overflow:  hidden;
+    font-family: 'TIro Devanagari Marathi', serif;
+    text-align: center;
+    color: black; 
+    background-image: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px 5px black;
+    display: inline-block;
+    width: 50%;
+    height: 70%;
+    padding: 15%;
+    margin: 10%;   
 }

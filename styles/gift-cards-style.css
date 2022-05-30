@@ -1,4 +1,4 @@
-#header-div{
+#gift-card-header-div{
     overflow:  auto;
     font-family: 'TIro Devanagari Marathi', serif;
     text-align: center;
@@ -15,20 +15,25 @@
     margin: 10%;     
 }
 
-.seperators{
-    width: 10%;
-    border: 1px solid black; 
-}
-
-#book-your-event{
+#gift-card-div{
+    overflow:  auto;
+    font-family: 'TIro Devanagari Marathi', serif;
     text-align: center;
+    color: black; 
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px 5px black;
+    display: inline-block;
+    width: 50%;
+    height: 70%;
+    padding: 15%;
+    margin: 10%;     
 }
 
-#title-book-your-event{
-    font-family: 'Pacifico', cursive;
+#gift-card-header-div:hover{
+    animation: scaleDiv 200ms ease-in-out forwards;
 }
 
-#header-div:hover{
+#gift-card-div:hover{
     animation: scaleDiv 200ms ease-in-out forwards;
 }
 

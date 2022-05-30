@@ -1,0 +1,49 @@
+#take-away-header-div{
+    overflow:  auto;
+    font-family: 'TIro Devanagari Marathi', serif;
+    text-align: center;
+    color: white; 
+    background-image: url('/images/take-away.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px 5px black;
+    display: inline-block;
+    width: 50%;
+    height: 70%;
+    padding: 15%;
+    margin: 10%;     
+}
+
+#take-away-div{
+    overflow:  auto;
+    font-family: 'TIro Devanagari Marathi', serif;
+    text-align: center;
+    color: black; 
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px 5px black;
+    display: inline-block;
+    width: 50%;
+    height: 70%;
+    padding: 15%;
+    margin: 10%;     
+}
+
+#link-to-menu{
+    text-decoration: none;
+    color: black;
+}
+
+#take-away-header-div:hover{
+    animation: scaleDiv 200ms ease-in-out forwards;
+}
+
+#take-away-div:hover{
+    animation: scaleDiv 200ms ease-in-out forwards;
+}
+
+@keyframes scaleDiv{
+    to{
+        transform: scale(1.2);
+    }
+}
