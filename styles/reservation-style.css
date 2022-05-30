@@ -1,0 +1,48 @@
+#reservation-form-header{
+    overflow:  auto;
+    font-family: 'TIro Devanagari Marathi', serif;
+    text-align: center;
+    color: white; 
+    background-image: url('/images/event.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px 5px black;
+    display: inline-block;
+    width: 50%;
+    height: 70%;
+    padding: 15%;
+    margin: 10%;     
+}
+
+#reservation-form-div{
+    text-align: center;
+    font-family: 'TIro Devanagari Marathi', serif;
+}
+
+.form-style{
+    border-radius: 10px;
+    box-shadow: 0px 2.5px 10px 2.5px;
+}
+
+#submit-button{
+    font-family: 'Pacifico', cursive;
+    font-size: larger;
+    padding: 0.8%;
+    margin: 2%;
+}
+
+#submit-button:hover{
+    color: white;
+    background-color: green;
+}
+
+#reservation-form-header:hover{
+    animation: scaleDiv 200ms ease-in-out forwards;
+}
+
+@keyframes scaleDiv{
+    to{
+        transform: scale(1.2);
+    }
+}

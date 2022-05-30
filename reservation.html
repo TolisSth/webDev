@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, intitial-scale=1.0">
+        <link rel="stylesheet" href="styles/common.css">
+        <link rel="stylesheet" href="styles/reservation-style.css">
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Tiro+Devanagari+Marathi&display=swap" rel="stylesheet"> 
+        <!--  font-family: 'Pacifico', cursive; the pretty ones -->
+        <!--  font-family: 'Tiro Devanagari Marathi', serif; the more professional looking font-->
+        <!-- title -->
+        <title>Tartare - Quality Dining </title>
+    </head>
+    <body>
+        <nav>
+            <ul id="navList-div">
+                <a id="logo" href="index.html"><img src="images/logo.png" width="120" alt="website logo"></a> 
+                <li id="lastLi"><a href="contact.html">Contact</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="take-away.html">Take Away</a></li>
+                <li><a href="gift-cards.html">Gift Cards</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+              </ul>
+        </nav>
+        <!-- page's content -->
+        <div id="reservation-form-header">
+            <h1>Make your reservation</h1>
+            <h3>*This is not a direct reservation form.<br>Please fill in all necessary infromation and our reservation departent will contact your for availability confirmation.</h3>
+        </div>
+        <div id="reservation-form-div">
+            <form id="reservation-form">
+                <label for="full-name">Full name</label><br>
+                <input class="form-style" type="email" id="full-name"><br>
+                <br>
+                <label for="email">E-mail</label><br>
+                <input class="form-style" type="text" id="email"><br>
+                <br>
+                <label for="phone-number">Phone number</label><br>
+                <input class="form-style" type="tel" id="phone-number" max="10"><br>
+                <br>
+                <label for="date">Pick reservation date</label><br>
+                <input class="form-style" type="date" id="date"><br>
+                <br>
+                <label for="time">Type reservation time (Opening hours: 19:30PM - 1:00AM)</label><br>
+                <input class="form-style" id="time" type="time"><br>
+                <br>
+                <label for="special-request">Special requests (optional)</label><br>
+                <textarea class="form-style" id="special-request" rows="5" cols="30"></textarea>
+                <br>
+                <input class="form-style" id="submit-button" type="submit">
+            </form>
+        </div>
+        <footer>
+            <img id="footerLogo" src="images/footerLogo.png" alt="Footer logo">
+            <p class="footerNotice">Copyright &copy; 2022 Tartare. All rights reserved.</p>
+            <h4 class="footerNotice">with &#x2764; by Tolis</h4>
+        </footer>
+    </body>
+</html>
